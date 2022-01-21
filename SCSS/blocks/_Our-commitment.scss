@@ -38,3 +38,29 @@
   color:#333D4B;
   opacity: 0.8;
 }
+
+
+@media only screen and (max-width:"400px") {
+  .container{
+    max-width: 327px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .Our-commitment__user{
+    display: none;
+    width: 327px;
+
+  }
+
+  .Our-commitment__title{
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 30px;
+  }
+
+  .Our-commitment__text{
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
