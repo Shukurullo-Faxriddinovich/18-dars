@@ -63,8 +63,6 @@
 
 @media only screen and (max-width:"400px"){
   .container{
-    width: 100%;
-    max-width:327px;
     padding: 0 20px;
   }
   
@@ -73,7 +71,9 @@
   }
 
   .nav-bar__button{
-    margin-left: 165px;
+    margin-right: 15px;
+    margin-left: 145px;
+
   }
 
   .nav-bar__list{

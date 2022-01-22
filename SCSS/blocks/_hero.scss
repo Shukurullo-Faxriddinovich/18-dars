@@ -35,19 +35,20 @@
 
 @media only screen and (max-width:"400px"){
   .container{
-    width: 100%;
-    max-width:327px;
     padding: 0 20px;
     
   }
+
+  
   .hero{
     width: 100%;
-    width: 351px;
+    width: 327px;
     background-position: center; 
     position: left ;
     border-radius: 10px;
     padding: 0 40px;
     margin-bottom: 120px;
+    // margin-left: 18px;
   }
 
   .hero__user{
@@ -56,8 +57,7 @@
     padding-top: 111px;
     padding-right: 24px;
     padding-bottom: 87px;
-    padding-left: 24px;
-    padding: 0 24px;
+    padding-left: 5px;
     text-align: center;
   }
   
