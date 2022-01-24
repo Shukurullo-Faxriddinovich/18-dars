@@ -1,5 +1,4 @@
 footer{
-  height: 120px;
   background-color: #333D4B;
 }
 
@@ -9,15 +8,14 @@ footer{
 
 .site-footer__wrapper{
   display: flex;
-  margin-top: 47px;
   margin-left: 85px;
+  padding-top: 47px;
+  padding-bottom: 48px;
 }
 
 .site-footer__user{
   margin: 0;
   padding: 0;
-  
-
 }
 
 .footer-nav-bar{
@@ -60,4 +58,247 @@ footer{
 
 .site-footer__item + .site-footer__item{
   margin-left: 24px;
+}
+
+
+@media only screen and (min-width:"320px") and (max-width:"360px"){
+  footer{
+    max-width: 327px;
+  }
+  
+  .container{
+    padding: 0 20px;
+  }
+  
+  .site-footer{
+    display: block;
+    width: 100%;
+    width: 350px;
+    padding: 54px 0;
+    background-color: #333D4B;
+  
+  }
+
+  .site-footer__wrapper{
+    display: flex;
+    margin-left: 55px;
+    padding: 0;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .site-footer__user{
+    margin-bottom: 49px;
+  }
+   
+
+  .site-footer__logo{
+    width: 217px;
+  }
+
+  .footer-nav-bar{
+    width: 122px;
+    height: 93px;
+    margin: 0;
+    padding: 0;
+    margin-left: 60px;
+  }
+
+  .footer-nav-bar__list{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+  
+  .footer-nav-bar__item{
+    margin-bottom: 24px;
+  }
+
+  .footer-nav-bar__item + .footer-nav-bar__item{
+    margin-left: 0;
+  }
+  
+  .site-footer__list{
+    width: 120px;
+    margin-left: 60px;
+  }
+}
+
+
+@media only screen and (min-width:"361px") and (max-width:"375px"){
+  footer{
+    max-width: 327px;
+  }
+  
+  .container{
+    padding: 0 20px;
+  }
+  
+  .site-footer{
+    display: block;
+    width: 100%;
+    width: 400px;
+    padding: 54px 0;
+    background-color: #333D4B;
+  
+  }
+
+  .site-footer__wrapper{
+    display: flex;
+    margin-left: 75px;
+    padding: 0;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .site-footer__user{
+    width: 217px;
+    margin-bottom: 49px;
+  }
+
+  .site-footer__logo{
+    width: 217px;
+  }
+
+  .footer-nav-bar{
+    width: 122px;
+    height: 93px;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+  }
+
+  .footer-nav-bar__list{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+  
+  .footer-nav-bar__item{
+    margin-bottom: 24px;
+  }
+
+  .footer-nav-bar__item + .footer-nav-bar__item{
+    margin-left: 0;
+  }
+  
+  .site-footer__list{
+    width: 120px;
+    margin-left: 100px;
+  }
+}
+
+
+
+@media only screen and (min-width:"376px") and (max-width:"425px"){
+  footer{
+    max-width: 400px;
+  }
+  
+  .container{
+    padding: 0 20px;
+  }
+  
+  .site-footer{
+    display: block;
+    width: 100%;
+    width: 400px;
+    padding: 54px 0;
+    background-color: #333D4B;
+  
+  }
+
+  .site-footer__wrapper{
+    display: flex;
+    margin-left: 75px;
+    padding: 0;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .site-footer__user{
+    margin-bottom: 49px;
+  }
+ 
+  .site-footer__logo{
+    width: 217px;
+  }
+
+  .footer-nav-bar{
+    width: 122px;
+    height: 93px;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+  }
+
+  .footer-nav-bar__list{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+  
+  .footer-nav-bar__item{
+    margin-bottom: 24px;
+  }
+
+  .footer-nav-bar__item + .footer-nav-bar__item{
+    margin-left: 0;
+  }
+  
+  .site-footer__list{
+    width: 120px;
+    margin-left: 100px;
+  }
+}
+
+
+
+@media only screen and (min-width:"688px") and (max-width:"768px"){
+  footer{
+    max-width: 768px;
+  }
+
+  .container{
+    padding: 0 20px;
+
+  }
+
+  .site-footer{
+    display: flex;
+    width: 688px;
+    padding: 54px 0;
+    flex-direction: column;
+  }
+
+  .site-footer__wrapper{
+    display: flex;
+    width: 283px;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .site-footer__user{
+    margin-bottom: 32px;
+  }
+
+
+  .footer-nav-bar{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 65px;
+    justify-content: right;
+  }
+
+
+  .site-footer__list{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+  }
 }
